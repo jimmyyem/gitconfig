@@ -2,7 +2,7 @@
 
 const dateString = 'Jan, Feb 1, 2024';
 
-function formatDate(dateString) {
+export function formatDate(dateString) {
     const [, month, day, year] = dateString.match(/(\w+) (\d+), (\d+)/);
 
     console.log(month, day, year);
