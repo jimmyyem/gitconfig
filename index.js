@@ -20,4 +20,4 @@ await sleep(1000);
 const nasdaqData = await getNasDaqData(today.toISOString().split('T')[0]);
 console.log(nasdaqData);
 
-console.log(formatDate('Jan, Feb 1, 2024'));
+console.log('Jan, Feb 1, 2024');
